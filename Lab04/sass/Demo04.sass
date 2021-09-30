@@ -1,0 +1,82 @@
+body 
+    padding: 0
+    margin: 0
+
+
+.container
+    width: 80%
+    background-color: #00A19D
+    padding: 0
+    margin: 0 auto
+
+header 
+    background-color: #00A19D
+    height: 100px
+    width: 80%
+    top: 0
+    line-height: 100px
+    text-align: center
+    position: fixed
+    z-index: 1
+
+nav
+    background-color: #FFF8E5
+    height: 30px
+    width: 80%
+    position: fixed
+    top: 100px
+    z-index: 1
+
+aside 
+    background-color: #FFB344
+    min-height: 800px
+    width: 20%
+    float: left
+    margin-top: 130px
+
+article
+    background-color: #E05D5D
+    min-height: 800px
+    width: 60%
+    float: left
+
+section
+    background-color: #6F69AC
+    height: 30px
+    line-height: 30px
+    padding-left: 10px
+    margin: 5px
+
+footer 
+    background-color: #FF95C5
+    height: 50px
+    text-align: center
+    line-height: 50px
+    clear: both
+
+.menu, .sub-menu
+    padding: 0
+    margin: 0
+    list-style: none
+    background-color: #22577A
+
+    li 
+        background-color: #80ED99
+        margin-bottom: 1px
+        height: 25px
+        line-height: 25px
+        padding: 0 0 0 10px
+        position: relative
+    
+    li:hover 
+        background-color: #86340A
+
+.sub-menu 
+    position: absolute
+    left: 101%
+    top: 0
+    width: 100px
+    display: none
+
+.menu li:hover .sub-menu
+    display: block
